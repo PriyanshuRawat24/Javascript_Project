@@ -2,7 +2,7 @@ const calculateFormEl = document.getElementById("calculateForm");
 const resultEl = document.getElementById("result");
 
 const calculateMarks = (event) => {
-    const maxMarks = 500;
+    const maxMarks = 400;
     event.preventDefault();
 
     const formData = new FormData(calculateFormEl);
