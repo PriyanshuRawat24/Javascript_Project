@@ -66,17 +66,19 @@ html, body {
     margin-bottom: 20px;
 }
 
+.time-item-main-box {
+    display: flex;
+}
+
 .time-item {
-    text-align: center;
-    /* margin: 10px; */
+ margin-right: 30px;   
 }
 
 .time-item div:first-child {
-    font-size: 1.5rem;
+    font-size: 35px;
 }
 
 .label {
-    font-size: 1.2rem;
-    margin-top: 10px;
+    font-size: 30px;
 }
 
